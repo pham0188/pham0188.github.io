@@ -1,0 +1,45 @@
+body {
+    font-family: Optima, sans-serif;
+    font-size: 18px;
+}
+
+header,
+footer {
+    background-color: lemonchiffon;
+}
+
+.site-title {
+    color:rgb(0, 140, 210);
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+ol li {
+    list-style: square;
+}
+
+ol li:nth-child(odd) {
+    background-color: rgb(255, 240, 221);
+}
+
+nav ul li {
+    list-style: none;
+}
+
+
+
+nav ul li a,
+nav ul li a:link,
+nav ul li a:visited {
+    background-color: rgb(165, 210, 249);
+    border: 3px solid rgb(255, 245, 177);
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: antiquewhite;
+}
