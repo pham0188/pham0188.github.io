@@ -93,7 +93,7 @@ main {
 	margin: 10px;
 }
 
-/* padding: top right bottom left */
+/* this is just my reminder: padding: top right bottom left */
 
 .picture {
 	width: 250px;
@@ -125,6 +125,8 @@ ol li {
 	margin-left: 15px;
 	
 }
+
+/* form style */
 
 form {
 	border: 1px black solid;
