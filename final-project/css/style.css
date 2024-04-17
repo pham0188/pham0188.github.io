@@ -525,12 +525,18 @@ footer p a {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		background-color: #ffe6ac;
+		padding: 0 150px; /* add padding to the left and right only */
+		padding-bottom: 10px;
 	}
 
 	.description {
 		grid-column-start: 2;
 	}
 
+	/* OUR VISION */
+	.our-vision {
+		padding: 0 150px; 
+	}
 
 
 	/* OUR SERVICES */
