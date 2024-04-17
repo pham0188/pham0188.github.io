@@ -537,6 +537,11 @@ footer p a {
 		grid-column-start: 2;
 	}
 
+	.about-us img {
+		width: 560px;
+		height: 340px;
+	}
+
 	/* OUR VISION */
 	.our-vision {
 		padding: 0 150px; 
@@ -615,7 +620,7 @@ footer p a {
   	flex-wrap: wrap;
   	align-content: flex-start;
 	}
-	
+
 /* use flexbox and order to rearrage the location and the opening hours */
 
 	.location {
