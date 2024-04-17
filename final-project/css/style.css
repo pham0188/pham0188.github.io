@@ -368,6 +368,10 @@ h5 {
 	margin: 17px 17px;
 }
 
+.send-message h3 {
+	margin-left: 0;
+}
+
 /* target the label of the send message form */
 
 label[for="full-name"],
@@ -605,13 +609,34 @@ footer p a {
 	
 	/* OPEN HOURS AND LOCATION */
 
-	/* .contact-grid {
-		display: grid;
-        grid-template-rows: 1fr 1fr;
-		grid-template-columns: 1fr 1fr;
-        gap: 0;
-        align-content: center;
-	} */
+	
+	.contact-grid {
+	display: flex;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+	}
+	
+/* use flexbox and order to rearrage the location and the opening hours */
+
+	.location {
+		width: 580px;
+		height: 450px;
+		justify-content: flex-start;
+		margin-top: -50px;
+		order: 2;
+	}
+
+	.send-message {
+		margin-top: -50px;
+		flex-grow: 2;
+		order: 1;
+	}
+
+	.open-hours {
+		align-self: flex-end;
+		flex-grow: 1;
+		order: 3;
+	}
 
 /* FOOTER */
 
